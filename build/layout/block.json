@@ -1,0 +1,27 @@
+{
+  "apiVersion": 2,
+  "name": "super-layout/layout",
+  "title": "Super Layout",
+  "category": "layout",
+  "icon": "columns",
+  "description": "A responsive layout block with customizable columns.",
+  "attributes": {
+    "columns": {
+      "type": "number",
+      "default": 3
+    },
+    "gap": {
+      "type": "number",
+      "default": 16
+    }
+  },
+  "providesContext": {
+    "super-layout/columns": "columns"
+  },
+  "supports": {
+    "html": false
+  },
+  "editorScript": "file:./index.js",
+  "style": "file:./style.css",
+  "render": "file:./render.php"
+}

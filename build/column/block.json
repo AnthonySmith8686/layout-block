@@ -1,0 +1,15 @@
+{
+  "apiVersion": 2,
+  "name": "super-layout/column",
+  "title": "Column",
+  "category": "layout",
+  "parent": [
+    "super-layout/layout"
+  ],
+  "icon": "editor-table",
+  "supports": {
+    "html": false
+  },
+  "editorScript": "file:./index.js",
+  "style": "file./style.css"
+}
